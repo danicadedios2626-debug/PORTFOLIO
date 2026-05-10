@@ -1,5 +1,5 @@
- nav{
-    background: rgb(131, 51, 120);
+nav{
+    background: palevioletred;
     padding:15px 0;
     display:flex;
     justify-content:center;
@@ -38,7 +38,7 @@ nav a:hover::before{
 }
 
 nav a:hover{
-    color:#7c47a2;
+    color:#4b0082;
 }
 
 nav a span{
@@ -49,15 +49,15 @@ nav a span{
 /* Active page style */
 nav a.active{
     background:white;
-    color:#7b4a9e;
+    color:#4b0082;
 }
- 
- body {
+
+body {
             margin: 0;
             font-family: 'Times New Roman', Times, serif;
-            background: linear-gradient(to right, #a86ede, #dcd0e7);
-            text-align: center;
+            background: linear-gradient(to right, #a855f7, #d8b4f8);
             color: white;
+            text-align: center;
         }
 
         h1 {
@@ -66,43 +66,43 @@ nav a.active{
         }
 
         .container {
-            padding: 30px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .image-box {
+            height: 80vh;
             display: flex;
             justify-content: center;
             align-items: center;
-            margin: 20px 0;
         }
 
-        .image-box img {
-            width: 200px;
-            height: 200px;
-            object-fit: cover;
-            border-radius: 50%;
-            border: 5px solid white;
-            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
-            transition: 0.4s;
-        }
-
-        .image-box img:hover {
-            transform: scale(1.1);
-        }
-
-        .about-box {
+        .skills-box {
             background: rgba(255, 255, 255, 0.2);
-            width: 70%;
-            padding: 20px;
+            padding: 30px;
             border-radius: 20px;
+            width: 60%;
             box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+            text-align: center;
         }
 
-        p {
-            line-height: 1.6;
+        .skills-box h2 {
+            margin-bottom: 20px;
         }
 
-      
+        .skill {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+
+        .bar {
+            background: white;
+            border-radius: 20px;
+            height: 10px;
+            width: 80%;
+            margin: 5px auto 15px;
+            overflow: hidden;
+        }
+
+        .fill {
+            height: 100%;
+            background: #662374;
+            border-radius: 20px;
+        }
+        
+        
